@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser';
 const app = express();
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:5173"
+    origin: "https://66cf32bb5ca7217778cd6bbc--super-rolypoly-d789b4.netlify.app/"
 }))
 app.use(cookieParser());
 app.use(express.json({ limit: "16kb" }));
